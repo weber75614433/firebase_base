@@ -19,6 +19,10 @@ export const appConfig: ApplicationConfig = {
       provideStorage(() => getStorage()),
       provideMessaging(() => getMessaging())
     ),
+<<<<<<< HEAD
     provideRouter(routes), provideFirebaseApp(() => initializeApp({"projectId":"lab6-de127","appId":"1:706688796050:web:83c08a713d21efcf39ed4b","storageBucket":"lab6-de127.appspot.com","locationId":"asia-east1","apiKey":"AIzaSyDrJOdXeSahA5SVqL4ADcLhXG9u3ysCecI","authDomain":"lab6-de127.firebaseapp.com","messagingSenderId":"706688796050"})), provideAuth(() => getAuth()), provideFirestore(() => getFirestore()), provideMessaging(() => getMessaging()), provideStorage(() => getStorage())
+=======
+    provideRouter(routes)
+>>>>>>> dac9230b896674d119b1ad8df29c84e0c2b7c9e6
   ],
 };

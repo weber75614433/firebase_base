@@ -1,8 +1,11 @@
 /node_modules
 /dist
 .angular
+<<<<<<< HEAD
 
 # Firebase
 .firebase
 *-debug.log
 .runtimeconfig.json
+=======
+>>>>>>> dac9230b896674d119b1ad8df29c84e0c2b7c9e6
